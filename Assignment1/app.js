@@ -1,6 +1,6 @@
-const add = require("./utils.js")
+const getNotes = require("./Notes.js")
 
-console.log("In app.js", add)
+console.log(getNotes(" click here..."))
 
 // const fs = require("fs");
 // fs.writeFileSync("Notes.txt", "I am Snehal.")
