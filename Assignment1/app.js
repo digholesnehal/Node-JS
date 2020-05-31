@@ -1,6 +1,6 @@
-Name=require("./Notes.js")
+const add = require("./utils.js")
 
-console.log("In app.js, trying to fetch name", Name)
+console.log("In app.js", add)
 
 // const fs = require("fs");
 // fs.writeFileSync("Notes.txt", "I am Snehal.")
